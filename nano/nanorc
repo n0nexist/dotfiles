@@ -1,0 +1,32 @@
+# n0nexist's nano config file
+# to use this config, save this
+# file as "/etc/nanorc"
+
+# configuration
+set autoindent
+set linenumbers
+set casesensitive
+set cutfromcursor
+set emptyline
+set historylog
+set locking
+set minibar
+set noconvert
+set nonewlines
+set showcursor
+set mouse
+set stateflags
+
+# colors
+set titlecolor italic,white
+set promptcolor lightwhite
+set statuscolor italic,white
+set errorcolor bold,white
+set spotlightcolor black,lightblue
+set selectedcolor cyan
+set stripecolor ,lightblue
+set scrollercolor cyan
+set numbercolor cyan
+set keycolor cyan
+set functioncolor lightblue
+include "/usr/share/nano/*.nanorc"
